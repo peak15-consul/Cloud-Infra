@@ -1,9 +1,9 @@
-site_name: SaaS Application Documentation
+site_name: AMOL REDIJ PROJECTS
 theme:
   name: material
   palette:
-    primary: blue
-    accent: deep-orange
+    primary: turquoise
+    accent: deep-red
 nav:
   - Home: index.md
   - User Guide:
