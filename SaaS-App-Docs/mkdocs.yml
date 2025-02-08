@@ -1,0 +1,24 @@
+site_name: SaaS Application Documentation
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: deep-orange
+nav:
+  - Home: index.md
+  - User Guide:
+      - Getting Started: user-guide/getting-started.md
+      - Features: user-guide/features.md
+      - Integrations: user-guide/integrations.md
+  - API Documentation:
+      - Authentication: api-docs/authentication.md
+      - Endpoints: api-docs/endpoints.md
+      - Error Handling: api-docs/error-handling.md
+  - Admin Guide:
+      - Setup: admin-guide/setup.md
+      - User Management: admin-guide/user-management.md
+  - Troubleshooting:
+      - Common Issues: troubleshooting/common-issues.md
+  - FAQs:
+      - FAQ: faqs/faq.md
+repo_url: https://github.com/your-github-username/SaaS-App-Docs
