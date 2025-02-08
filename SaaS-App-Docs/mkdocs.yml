@@ -6,6 +6,7 @@ theme:
     accent: deep-red
 nav:
   - Home: index.md
+  - Project Overview: project-overview.md
   - User Guide:
       - Getting Started: user-guide/getting-started.md
       - Features: user-guide/features.md
