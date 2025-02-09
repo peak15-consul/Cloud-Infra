@@ -3,11 +3,12 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - main  # Adjust branch if needed
+      - main  # Adjust this if your source branch is different
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -21,5 +22,8 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
-      - name: Deploy MkDocs site
+      - name: Verify mkdocs.yml exists
+        run: ls -l mkdocs.yml
+
+      - name: Build and deploy MkDocs
         run: mkdocs gh-deploy --force

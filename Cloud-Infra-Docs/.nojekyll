@@ -1,1 +1,2 @@
-
+      - name: Disable Jekyll
+        run: touch site/.nojekyll
