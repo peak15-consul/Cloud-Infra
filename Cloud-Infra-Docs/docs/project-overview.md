@@ -25,7 +25,7 @@ This project follows a structured **Docs-as-Code** approach:
 🔹 **Technology Stack:**  
       
       -  **MkDocs** for site generation
-      
+   
       -  **GitHub Pages** for hosting  
       
       -  **Markdown** for structured content  
