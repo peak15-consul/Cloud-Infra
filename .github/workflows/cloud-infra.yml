@@ -22,5 +22,8 @@ jobs:
         run: |
           pip install mkdocs mkdocs-material
 
+      - name: Verify mkdocs.yml exists
+        run: ls -l mkdocs.yml
+
       - name: Build and deploy MkDocs
         run: mkdocs gh-deploy --force
