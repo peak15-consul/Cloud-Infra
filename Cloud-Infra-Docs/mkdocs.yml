@@ -11,7 +11,7 @@ theme:
 
 nav:
   - Home: index.md
-  - Project Overview: project-overview.md
+  - Introduction: introduction.md
   - User Guide:
       - Getting Started: user-guide/getting-started.md
       - Features: user-guide/features.md
