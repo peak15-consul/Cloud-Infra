@@ -1,29 +1,15 @@
-name: Deploy MkDocs
-
 on:
   push:
     branches:
-      - main  # Trigger deployment when pushing to the main branch
-  workflow_dispatch:  # Allow manual trigger
+      - main  # Ensure it's your default branch
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
-
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Install Python
-        uses: actions/setup-python@v4
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
-
-      - name: Install MkDocs and dependencies
-        run: |
-          pip install mkdocs mkdocs-material
-
-      - name: Deploy MkDocs to GitHub Pages
-        run: |
-          cd Cloud-Infra-Docs  # Navigate to the directory where mkdocs.yml is located
-          mkdocs gh-deploy --force
+          python-version: "3.x"
+      - run: pip install mkdocs mkdocs-material
+      - run: mkdocs gh-deploy --force
