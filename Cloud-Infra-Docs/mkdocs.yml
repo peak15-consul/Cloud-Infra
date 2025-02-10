@@ -12,10 +12,11 @@ theme:
 nav:
   - Home: index.md
   - Introduction: introduction.md
-  - User Guide:
-      - Getting Started: user-guide/getting-started.md
-      - Features: user-guide/features.md
-      - Integrations: user-guide/integrations.md
+  - Cloud Infrastructure Management:
+      - Overview: Cloud-Infrastructure-Management/overview.md
+      - Architecture: Cloud-Infrastructure-Management/architecture-overview.md
+      - Components and Services: Cloud-Infrastructure-Management/components-services.md
+      - Supported Cloud Platforms: Cloud-Infrastructure-Management/supported-clouds.md
   - API Documentation:
       - Authentication: api-docs/authentication.md
       - Endpoints: api-docs/endpoints.md
