@@ -46,7 +46,7 @@ The system is composed of the following layers:
 
     *   Ensures cross-cloud compatibility.  
 
-4.  Storage & Database Layer**  
+4.  **Storage & Database Layer**  
 
     *   *Configuration Database* – Stores user settings, access controls, and metadata.  
 
