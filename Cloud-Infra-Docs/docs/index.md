@@ -1,5 +1,7 @@
 # CloudOps Manager Documentation Project
 
+*Disclaimer - This is a **sample documentation project for portfolio purposes only**. The CloudOps Manager product referenced here is a fictional representation for showcasing **technical writing, documentation structuring, and automation techniques**.*
+
 ## Overview  
 
 This documentation project serves as a structured and comprehensive guide for CloudOps Manager, a cloud infrastructure management solution. It is designed to showcase best practices in **Documentation as Code (DAC)** using MkDocs, GitHub, and CI/CD workflows.  
@@ -34,10 +36,6 @@ This project leverages the following technologies and tools:
 | **CI/CD Deployment** | GitHub Actions |
 | **Hosting** | GitHub Pages |
 | **Markup Language** | Markdown (MD) |
-
-## Disclaimer  
-
-This is a **sample documentation project for portfolio purposes only**. The CloudOps Manager product referenced here is a fictional representation for showcasing **technical writing, documentation structuring, and automation techniques**.  
 
 ---
 
