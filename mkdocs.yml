@@ -7,15 +7,15 @@ docs_dir: Cloud-Infra-Docs/docs  # ✅ This ensures MkDocs looks inside the corr
 theme:
   name: "material"
   palette:
-    scheme: "default"
+    scheme: "slate"
     primary: "teal"
-    accent: "red"
+    accent: "blue"
 
 nav:
   - Home: index.md
   - Introduction: introduction.md
   - Cloud Infrastructure Management:
-      - Overview: Cloud-Infrastructure-Management/overview.md
-      - Architecture: Cloud-Infrastructure-Management/architecture-overview.md
-      - Components and Services: Cloud-Infrastructure-Management/components-services.md
-      - Supported Cloud Platforms: Cloud-Infrastructure-Management/supported-clouds.md
+    - Overview: Cloud-Infrastructure-Management/overview.md
+    - Architecture: Cloud-Infrastructure-Management/architecture-overview.md
+    - Components and Services: Cloud-Infrastructure-Management/components-services.md
+    - Supported Cloud Platforms: Cloud-Infrastructure-Management/supported-clouds.md
