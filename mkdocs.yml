@@ -2,7 +2,7 @@ site_name: "AR Demo - Cloud Infra Docs"
 site_url: "https://peak15-consul.github.io/Cloud-Infra-Management/"
 repo_url: "https://github.com/peak15-consul/Cloud-Infra-Management"
 
-docs_dir: Cloud-Infra-Docs/docs  # ✅ This ensures MkDocs looks inside the correct folder
+docs_dir: Cloud-Infra-Docs/docs/  # ✅ This ensures MkDocs looks inside the correct folder
 
 theme:
   name: "material"
