@@ -24,14 +24,14 @@ jobs:
           pip install mkdocs mkdocs-material
 
       - name: Build MkDocs site
-        run: mkdocs build  # ✅ No need for extra config file paths
+        run: mkdocs build
 
-      - name: Disable Jekyll (avoid GitHub Pages errors)
+      - name: Disable Jekyll
         run: touch site/.nojekyll
 
-      - name: Deploy MkDocs site  # ✅ Updated step with `disable_nojekyll: true`
+      - name: Deploy MkDocs site
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site  # Ensure this points to the built MkDocs site
-          disable_nojekyll: true  # ✅ Explicitly disable Jekyll processing
+          publish_dir: ./site
+          disable_nojekyll: true
