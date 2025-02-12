@@ -3,7 +3,7 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - main  # Ensure this matches your default branch
+      - main
 
 jobs:
   build:
@@ -34,7 +34,7 @@ jobs:
 
       - name: Disable Jekyll
         run: |
-          mkdir -p site  # Ensure the site directory exists
+          mkdir -p site
           touch site/.nojekyll
 
       - name: List contents of site directory
@@ -45,4 +45,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          disable_nojekyll: true
+          disable_nojekyll: false  # ✅ Critical fix
