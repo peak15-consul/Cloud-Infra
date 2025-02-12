@@ -23,11 +23,22 @@ jobs:
           python -m pip install --upgrade pip
           pip install mkdocs mkdocs-material
 
+      - name: Debug directory structure before build
+        run: ls -R
+
       - name: Build MkDocs site
         run: mkdocs build
 
+      - name: Debug directory structure after build
+        run: ls -R
+
       - name: Disable Jekyll
-        run: touch site/.nojekyll
+        run: |
+          mkdir -p site  # Ensure the site directory exists
+          touch site/.nojekyll
+
+      - name: List contents of site directory
+        run: ls -la site
 
       - name: Deploy MkDocs site
         uses: peaceiris/actions-gh-pages@v3
