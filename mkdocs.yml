@@ -19,3 +19,6 @@ nav:
     - Architecture: Cloud-Infrastructure-Management/architecture-overview.md
     - Components and Services: Cloud-Infrastructure-Management/components-services.md
     - Supported Cloud Platforms: Cloud-Infrastructure-Management/supported-clouds.md
+  - Deployment:
+    - System Requirements: Deployment/system-requirements.md
+    - Installation and Setup: Deployment/installation-and-setup.md
