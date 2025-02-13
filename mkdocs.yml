@@ -19,7 +19,7 @@ nav:
     - Architecture: Cloud-Infrastructure-Management/architecture-overview.md
     - Components and Services: Cloud-Infrastructure-Management/components-services.md
     - Supported Cloud Platforms: Cloud-Infrastructure-Management/supported-clouds.md
-  - User Management:
+  - User-Management:
     - Overview: User-Management/user-management-overview.md
     - Authentication and Identity Management: User-Management/authentication-IAM.md
     - Access Control and Policy Management: User-Management/access-control-policy-management.md
@@ -34,3 +34,7 @@ nav:
     - Policy Management: Resource-Management/policy-management.md
     - Auto-Scaling: Resource-Management/auto-scaling.md
     - Resource Monitoring: Resource-Management/resource-monitoring.md
+  - Costing and Budgeting:
+    - Costing and Budgeting Overview: Costing-Budgeting/costing-budgeting-overview.md
+    - Costing and Budgeting in Cloud Platforms: Costing-Budgeting/costing-budgeting-cloud-platforms.md
+    - Costing and Budgeting Best Practices: Costing-Budgeting/costing-budgeting-best-practices.md
